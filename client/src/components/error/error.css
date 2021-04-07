@@ -1,0 +1,36 @@
+.error-container {
+  height: 100vh;
+  width: 100%;
+  background: url("../../assets/apex-wattson.png") center no-repeat;
+  background-size: cover;
+  padding-top: 12rem;
+}
+
+.error-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-box .btn {
+  background: #0d0d0d;
+  color: #ffffff;
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.8rem !important;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+.error-box .btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.error-box .btn:hover {
+  background-color: #161616;
+  transition: ease-in 0.2s;
+}

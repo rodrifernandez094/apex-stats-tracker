@@ -1,0 +1,94 @@
+.profile {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  /* max-width: 800px; */
+  /* margin: 1rem auto; */
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gamertag {
+  background: #0d0d0d;
+  padding: 0.3rem 0.5rem;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.profile .btn {
+  background: #0d0d0d;
+  color: #ffffff;
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.8rem !important;
+  border-radius: 20px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.profile .btn:hover {
+  background-color: #161616;
+  transition: ease-in 0.2s;
+}
+
+.platform-avatar {
+  width: 40px;
+  margin-right: 1rem;
+}
+.gamertag img {
+  border-radius: 50%;
+  width: 100%;
+  border: 3px solid #181818;
+}
+
+.platform-avatar {
+  width: 60px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stats-container {
+  width: 300px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.stats-container h2 {
+  margin-bottom: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.stats-card {
+  background: #0d0d0d;
+  padding: 1rem;
+  border-radius: 20px;
+  border: 1px solid #181818;
+  text-align: center;
+}
+
+.stats-card h4 {
+  margin-bottom: 0.5rem;
+}
+
+.stats-card img {
+  width: 100%;
+}
